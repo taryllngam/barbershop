@@ -236,5 +236,5 @@ nav ul li a{
     transition: 1s;
 }
 .single-service:hover .overlay{
-    opacity: 1;
+opacity: 1;
 }
