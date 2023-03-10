@@ -4,7 +4,7 @@
   font-family: cursive;
 }
 
-#banner{
+#banner {
   background: linear-gradient(rgba(0,0,0,0.5),#009688),url(banner.jpg);
   background-size: cover;
   background-position: center;
@@ -302,7 +302,7 @@ hr {
   .single-service{
     flex-basis: 100%;
     margin-bottom: 30px;
-  } 
+  }
 
   .service-desc p {
     font-size: 12px;
@@ -310,16 +310,18 @@ hr {
 
   hr {
     margin: 5px auto;
-  } 
-  .single-service:hover .service-desc {
+}
+
+  .single-service:hover 
+	.service-desc {
     bottom: 25% !important;
   }
- }
-/*---testimonial----*/
+}
+/* ---testimonial---- */
  #testimonial{
   width: 100%;
   padding: 70px 0;
- }
+}
 
 
  .testimonial-row {
@@ -329,7 +331,7 @@ hr {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
- }
+}
 
  .testimonial-col {
   flex-basis: 28%;
@@ -339,44 +341,45 @@ hr {
   box-shadow: 0 10px 20px 3px #00968814;
   cursor: pointer;
   transition: transform .5s;
- }
+}
  .testimonial-col p {
   font-size: 14px;
- }
+}
 
  .user {
   display: flex;
   align-items: center;
   margin: 20px 0;
- }
+}
 
  .user img {
   width: 40px;
   margin-right: 20px;
   border-radius: 30px;
- }
+}
 
  .user-info .fa {
    margin-left: 10px;
    color: #27c0ff;
    font-size: 20px;
- }
+}
 
  .user-info small {
   color: #009688;
- }
+}
 
  .testimonial-col:hover {
   transform: translateY(-7px);
- }
+}
 
  @media screen and (max-width: 770px) {
   .testimonial-col{
     flex-basis: 100%;
   }
- }
- /*--footer--*/
- #footer{
+}
+
+ /* --footer-- */
+#footer {
   padding: 100px 0 20px;
   background: #efefef;
   position: relative;
@@ -390,33 +393,35 @@ hr {
   flex-wrap: wrap;
  }
 
- .footer-left,.footer-right {
+ .footer-left,
+ .footer-right {
   flex-basis: 45%;
   padding: 10px;
   margin-bottom: 20px;
- }
+}
 
  .footer-right {
   text-align: right;
- }
+}
 
  .footer-row h1 {
   margin: 10px;
- }
+}
 
  .footer-row p {
   line-height: 35px;
- }
+}
 
  .footer-row h1 {
   margin: 10px 0;
- }
+}
 
  .footer-row h1 {
   line-height: 35px;
- }
+}
 
-.footer-left .fa,.footer-right .fa {
+.footer-left .fa,
+.footer-right .fa {
   font-size: 20px;
   color: #009688;
   margin: 10px;  
@@ -428,7 +433,7 @@ hr {
   position: absolute;
   left: 50%;
   right: 35%;
-  transform: translate(-50%,-50%);
+  transform: translate (-50%,-50%);
 }
 
 .social-links {
@@ -449,7 +454,7 @@ hr {
 .social-links .fa:hover {
   background: #009688;
   color: #fff;
-  transform: translateY(-7px); 
+  transform:translateY(-7px); 
 }
 
 .social-links p {
@@ -457,11 +462,13 @@ hr {
   margin-top: 20px;
 }
 
-@media screen and (max-width: 770px){
-  .footer-left,.footer-right{
+@media screen and (max-width: 770px) {
+  .footer-left,
+	.footer-right {
     flex-basis: 100%;
     font-size: 14px;
   }
+
   .footer-img {
     top: 25%;
   }
