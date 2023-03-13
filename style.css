@@ -45,7 +45,7 @@
   margin: 0 10px;
   padding: 12px 0;
   color: #fff;
-  border: 50%, solid, #fff;
+  border: 50%, solid, white;
   position: relative;
   z-index: 1;
   transition: color 0.5s;
@@ -63,7 +63,7 @@ nav ul li a{
 }
 
 .banner-btn a span {
-  width: 0;
+  width: 5;
   height: 100%;
   position: absolute;
   top: 0;
@@ -367,6 +367,8 @@ hr {
 
  .user-info small {
   color: #009688;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
  .testimonial-col:hover {
@@ -380,11 +382,11 @@ hr {
 }
 
  /* --footer-- */
-#footer {
-  padding: 100px 0 20px;
-  background: #efefef;
-  position: relative;
- }
+	#footer {
+		padding: 100px 0 20px;
+		background: #efefef;
+		position: relative;
+	}
 
  .footer-row {
   width: 80%;
