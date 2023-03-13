@@ -170,33 +170,33 @@ nav ul li a{
   text-align: center;
   }
 
-.features{
+.features {
   flex-basis: 50%;
 }
 
-.features-img{
+.features-img {
   flex-basis: 50%;
   margin: auto;
 }
 
-.features-img img{
+.features-img img {
   width: 70%;
   border-radius: 10px;
 }
 
-.features h1{
+.features h1 {
   text-align: left;
   margin-bottom: 10px;
   font-weight: 100px;
   color: #009688;
 }
 
-.features-desc{
+.features-desc {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
 }
-.feature-icon .fa{
+.feature-icon .fa {
   width: 50px;
   height: 50px;
   font-size: 30px;
@@ -206,7 +206,7 @@ nav ul li a{
   border: 1px solid #009688;
 
 }
-.feature-text p{
+.feature-text p {
   padding: 0 20px;
   text-align: initial;
 }
@@ -214,6 +214,7 @@ nav ul li a{
   .title-text h1{
    font-size: 35px;
   }
+
   .features{
    flex-basis: 100%;
   }
@@ -378,7 +379,7 @@ hr {
  @media screen and (max-width: 770px) {
   .testimonial-col{
    flex-basis: 100%;
-  }
+   }
 }
 
  /* --footer-- */
