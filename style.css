@@ -5,7 +5,7 @@
 }
 
 #banner {
-  background: linear-gradient(rgba(0,0,0,50%), #009688),url("banner.jpg");
+  background: linear-gradient(#00000080, #009688), url("banner.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -113,11 +113,11 @@ nav ul li a{
 
  @media screen and (max-width:770px){
   .banner-text h1{
-    font-size: 44px;
+   font-size: 44px;
   }
   .banner-btn a{
-    display: block;
-    margin: 20px auto;
+   display: block;
+   margin: 20px auto;
   }
   }
 
@@ -212,18 +212,18 @@ nav ul li a{
 }
 @media screen and (max-width:770px) {
   .title-text h1{
-    font-size: 35px;
+   font-size: 35px;
   }
   .features{
-    flex-basis: 100%;
+   flex-basis: 100%;
   }
 
   .features-img{
-    flex-basis: 100%;
+   flex-basis: 100%;
   }
 
   .features-img img{
-    width: 100%;
+   width: 100%;
   }
 }
 
@@ -232,8 +232,8 @@ nav ul li a{
 #service{
   width: 100%;
   padding: 70px 0;
-   
-   
+    
+    
   background: #efefef;
 }
 .service-box{
@@ -283,11 +283,11 @@ opacity: 1;
   transition: 1s;
 }
 hr {
-   background: #fff;
-   height: 2px;
-   border: 0;
-   margin: 15px auto;
-   width: 60%; 
+  background: #fff;
+  height: 2px;
+  border: 0;
+  margin: 15px auto;
+  width: 60%; 
 }
 
 .service-desc p {
@@ -301,21 +301,21 @@ hr {
 
  @media screen and (max-width: 770px) {
   .single-service{
-    flex-basis: 100%;
-    margin-bottom: 30px;
+   flex-basis: 100%;
+   margin-bottom: 30px;
   }
 
   .service-desc p {
-    font-size: 12px;
+   font-size: 12px;
   } 
 
   hr {
-    margin: 5px auto;
+   margin: 5px auto;
 }
 
   .single-service:hover 
 	.service-desc {
-    bottom: 25% !important;
+   bottom: 25% !important;
   }
 }
 /* ---testimonial---- */
@@ -360,9 +360,9 @@ hr {
 }
 
  .user-info .fa {
-   margin-left: 10px;
-   color: #27c0ff;
-   font-size: 20px;
+  margin-left: 10px;
+  color: #27c0ff;
+  font-size: 20px;
 }
 
  .user-info small {
@@ -377,7 +377,7 @@ hr {
 
  @media screen and (max-width: 770px) {
   .testimonial-col{
-    flex-basis: 100%;
+   flex-basis: 100%;
   }
 }
 
@@ -468,11 +468,11 @@ hr {
 @media screen and (max-width: 770px) {
   .footer-left,
 	.footer-right {
-    flex-basis: 100%;
-    font-size: 14px;
+   flex-basis: 100%;
+   font-size: 14px;
   }
 
   .footer-img {
-    top: 25%;
+   top: 25%;
   }
 }
